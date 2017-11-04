@@ -77,10 +77,6 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-
-   
         
         @IBAction func save() {
             let rect:CGRect = CGRect(x: 0, y: 30, width: 320, height: 380)
@@ -88,7 +84,10 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
             self.view.layer.render(in: UIGraphicsGetImageFromCurrentImageContext() as! CGContext)
             UIGraphicsEndImageContext()
             
+            UIImageWriteToSavedPhotosAlbum(capture!, nil, nil, nil)
         }
+    
+    
     
 }
 

@@ -19,6 +19,7 @@
 		EEAFB8EC1FAD534D005A8413 /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAFB8E71FAD534C005A8413 /* hoshi.png */; };
 		EEAFB8ED1FAD534D005A8413 /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAFB8E81FAD534C005A8413 /* onpu.png */; };
 		EEAFB8EE1FAD534D005A8413 /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAFB8E91FAD534C005A8413 /* shitumon.png */; };
+		EEAFB8F11FADA67D005A8413 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEAFB8F01FADA67D005A8413 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,6 @@
 		EEAFB8BB1FAD527D005A8413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEAFB8BD1FAD527D005A8413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEAFB8C01FAD527D005A8413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EEAFB8C21FAD527D005A8413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEAFB8C71FAD527D005A8413 /* Stamp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stamp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAFB8CB1FAD527D005A8413 /* Stamp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamp2Tests.swift; sourceTree = "<group>"; };
 		EEAFB8CD1FAD527D005A8413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +57,7 @@
 		EEAFB8E71FAD534C005A8413 /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi.png; sourceTree = "<group>"; };
 		EEAFB8E81FAD534C005A8413 /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onpu.png; sourceTree = "<group>"; };
 		EEAFB8E91FAD534C005A8413 /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shitumon.png; sourceTree = "<group>"; };
+		EEAFB8F01FADA67D005A8413 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../鬼宿題/Stamp/Stamp/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +114,7 @@
 				EEAFB8BA1FAD527D005A8413 /* Main.storyboard */,
 				EEAFB8BD1FAD527D005A8413 /* Assets.xcassets */,
 				EEAFB8BF1FAD527D005A8413 /* LaunchScreen.storyboard */,
-				EEAFB8C21FAD527D005A8413 /* Info.plist */,
+				EEAFB8F01FADA67D005A8413 /* Info.plist */,
 			);
 			path = Stamp2;
 			sourceTree = "<group>";
@@ -257,6 +258,7 @@
 			files = (
 				EEAFB8C11FAD527D005A8413 /* LaunchScreen.storyboard in Resources */,
 				EEAFB8EC1FAD534D005A8413 /* hoshi.png in Resources */,
+				EEAFB8F11FADA67D005A8413 /* Info.plist in Resources */,
 				EEAFB8EB1FAD534D005A8413 /* hana.png in Resources */,
 				EEAFB8EA1FAD534D005A8413 /* background.png in Resources */,
 				EEAFB8BE1FAD527D005A8413 /* Assets.xcassets in Resources */,
